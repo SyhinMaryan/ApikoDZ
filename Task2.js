@@ -1,11 +1,5 @@
 function createTeg(){
 	let fragment = new DocumentFragment ();
-	let pElement=document.createElement('p');
-	let Img=document.createElement('img');
-	Img.src='index.png';
-	pElement.appendChild(Img);
-	pElement.style=' text-align: center;';
-	fragment.appendChild(pElement);
 	divElement = document.createElement('div');
 	divElement.id='header';
 	divHello=document.createElement('div');
